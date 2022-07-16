@@ -141,11 +141,6 @@ body {
     margin-bottom: 20px;
 }
 
-/* .about-listProfile{
-    margin-bottom: 28px;
-    padding-bottom: 24px;
-} */
-
 .about-listProfile li:nth-child(1){
     font-size: 24px;
     line-height: 32px;
@@ -174,7 +169,7 @@ body {
     padding-top: 28px;
 }
 
-/* 以下參考CloThEs同學寫法*/
+/* 以下參考Chi同學寫法*/
 .about-listCareer li::before{
     content: "";
     background:#891818;
@@ -184,7 +179,7 @@ body {
     border-radius: 50%;
     margin-right: 16px;
 } 
-/* 以上參考CloThEs同學寫法*/
+/* 以上參考Chi同學寫法*/
 
 .about-listCareer li{ 
     font-size: 24px;
@@ -228,12 +223,8 @@ body {
     row-gap: 40px;
     column-gap: 24px;
 
-    /* gap: 24px; */
 }
 
-/* .myBrand-list li:first-child{
-    margin-bottom: 40px;
-} */
 
 .otherWorks{
     padding-top: 56px;
@@ -255,16 +246,11 @@ body {
 .otherWorks-list{
     display: flex;
     flex-wrap: wrap;
-    /* gap: 24px; */
 
-    /* 以下參考CloThEs同學寫法*/
+    /* 以下參考Chi同學寫法*/
     justify-content: space-between;
     row-gap: 48px;
 }
-
-/* .otherWorks-list li:not(:last-child){
-    margin-bottom: 24px;
-} */
 
 .otherWorks-list p{
     text-align: center;
